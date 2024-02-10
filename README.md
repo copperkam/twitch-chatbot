@@ -4,6 +4,10 @@ This is a thing, it does stuff.
 
 Hi! 
 
+_____________
+This is an AI powered chat responder!
+
+_____________
 lets get into the basics, I've marked some spots in
 1. bot.py
 2. twitchchatgrab.py
