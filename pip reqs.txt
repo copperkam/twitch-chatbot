@@ -1,0 +1,6 @@
+characterai==0.8.0       
+charset-normalizer==3.3.2
+emoji==2.10.1
+numpy==1.26.4 
+pyttsx3==2.90
+typing_extensions==4.9.0
