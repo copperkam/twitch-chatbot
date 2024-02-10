@@ -24,6 +24,11 @@ character_token = "Put any character ID here!"
 
 WordFile = "BADWORDS.txt"
 
+# You reaaaalllyyy dont want every message to be responded to. So you have a code word.
+# set up the code word! For example mine is josie (the AI i have livestream for me occasionally.)
+
+codeword = "Code word here"
+
 ########################################################################## Definitions block ###################################################################################
 
 #This loads the badword file in.
@@ -92,9 +97,10 @@ def monitor_chat_log():
         print("Message:", message)
 
 
-            
+            #this deems if the message is worth responding to! If the codeword variable isnt working, replace codeword here with your word 
+            # example if message is not None and "josie" in message.lower():
 
-        if message is not None and "josie" in message.lower():
+        if message is not None and codeword in message.lower():
             message = prof_checker(message, BADWORDS)
             message = "{" + username + "} " + "said: " + message 
             print("Sending ", " * ", message," * ", "now!")
