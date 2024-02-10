@@ -48,6 +48,11 @@ Read more links here (in code as well):
 
 	https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/
 
+-My Links
+
+	https://github.com/copperkam/twitch-chatbot
+
+	https://kamrons.space
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
