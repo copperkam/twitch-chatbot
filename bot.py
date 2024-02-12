@@ -111,7 +111,8 @@ def monitor_chat_log():
             with open('chat.log', 'w', encoding='utf-8') as chat_file:
                 chat_file.writelines(new_lines)
             return(message)
-        if timestamp is None or "3" in timestamp:  
+        #This line below deletes the any non-codeword relevant messages because of that 0. 
+        if timestamp is None or "0" in timestamp:  
             processed_indices.append(index)
             print("Status: read. Message:", message)
             continue
